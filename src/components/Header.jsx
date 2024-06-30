@@ -5,6 +5,7 @@ import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
 import { HambugerMenu } from "./design/Header";
 import { useState } from "react";
+import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
 const Header = () => {
   const pathname = useLocation();
@@ -13,12 +14,17 @@ const Header = () => {
   const toggleNavigation = () => {
     if (openNavigation) {
       setopenNavigation(false);
+      enablePageScroll();
     } else {
       setopenNavigation(true);
+      disablePageScroll();
     }
   };
 
   const handleClick = () => {
+    if (!openNavigation) return;
+
+    enablePageScroll();
     setopenNavigation(false);
   };
 
