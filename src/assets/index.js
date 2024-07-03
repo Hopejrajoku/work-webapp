@@ -1,4 +1,4 @@
-import brainwave from "./brainwave.svg";
+import freight from "./freight.svg";
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
@@ -76,7 +76,7 @@ import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
 export {
-  brainwave,
+  freight,
   check,
   check2,
   loading1,
