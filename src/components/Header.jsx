@@ -41,7 +41,7 @@ const Header = () => {
         <nav
           className={`${
             openNavigation ? "flex" : "hidden"
-          } fixed top-[5rem] left-0 right-0 botton-0 bg-n-8 lg:static lg:flex lg:mx-auto lg:bg-transparent`}
+          } fixed top-[5rem] left-0 right-0 botton-0 bg-n-8 lg:static lg:flex lg:ml-auto lg:bg-transparent`}
         >
           <div className="relative z-2 flex flex-col items-center justify-center m-auto lg:flex-row">
             {navigation.map((item) => (
@@ -61,15 +61,6 @@ const Header = () => {
           </div>
           <HambugerMenu />
         </nav>
-        <a
-          href="#signup"
-          className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
-        >
-          New Account
-        </a>
-        <Button className="hidden lg:flex" href="#login">
-          Sign in
-        </Button>
 
         <Button
           className="ml-auto lg:hidden"
