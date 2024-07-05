@@ -1,4 +1,4 @@
-import freight from "./freight.svg";
+import freight from "./freight.png";
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
