@@ -1,4 +1,4 @@
-import { freight } from "../assets";
+//import { freight } from "../assets";
 import { useLocation } from "react-router-dom";
 import { navigation } from "../constants";
 import Button from "./Button";
@@ -35,13 +35,16 @@ const Header = () => {
       }`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-        <a className="block w-[12rem] xl:mr-8" href="#hero">
-          <img src={freight} width={50} height={40} alt="brainwave" />
+        <a
+          className="block text-[25px]  font-bold w-[12rem] lg:ml-10 xl:mr-8"
+          href="#hero"
+        >
+          Freight
         </a>
         <nav
           className={`${
             openNavigation ? "flex" : "hidden"
-          } fixed top-[5rem] left-0 right-0 botton-0 bg-n-8 lg:static lg:flex lg:ml-auto lg:bg-transparent`}
+          } fixed top-[5rem] left-0 right-0  botton-0 bg-n-8 lg:static lg:flex lg:ml-auto lg:bg-transparent`}
         >
           <div className="relative z-2 flex flex-col items-center justify-center m-auto lg:flex-row">
             {navigation.map((item) => (

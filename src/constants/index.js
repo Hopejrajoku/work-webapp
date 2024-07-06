@@ -62,6 +62,11 @@ export const navigation = [
     title: "Contact",
     url: "#contact",
   },
+  {
+    id: "5",
+    title: "Learn With Us",
+    url: "#Learn",
+  },
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
