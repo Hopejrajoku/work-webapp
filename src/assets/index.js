@@ -19,11 +19,11 @@ import disc02 from "./disc-02.svg";
 import chromecast from "./chrome-cast.svg";
 import sliders04 from "./sliders-04.svg";
 import loading from "./loading.png";
-import background from "./background.jpg";
+import aigenk from "./aigenk.jpg";
 
 import curve from "./hero/curve.png";
 import aigen from "./hero/aigen.jpg";
-import heroBackground from "./hero/hero-background.jpg";
+import heroBackground from "./hero/hero-background.png";
 
 import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
@@ -97,7 +97,7 @@ export {
   chromecast,
   sliders04,
   loading,
-  background,
+  aigenk,
   curve,
   aigen,
   heroBackground,
