@@ -1,4 +1,4 @@
-import { background } from "../../assets";
+import { aigenk } from "../../assets";
 
 export const Rings = () => {
   return (
@@ -34,7 +34,7 @@ export const HambugerMenu = () => {
       <div className="absolute inset-0 opacity-[.03]">
         <img
           className="w-full h-full object-cover"
-          src={background}
+          src={aigenk}
           width={688}
           height={953}
           alt="Background"

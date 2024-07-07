@@ -1,4 +1,4 @@
-//import { freight } from "../assets";
+import { curve } from "../assets";
 import { useLocation } from "react-router-dom";
 import { navigation } from "../constants";
 import Button from "./Button";
@@ -39,7 +39,16 @@ const Header = () => {
           className="block text-[25px]  font-bold w-[12rem] lg:ml-10 xl:mr-8"
           href="#hero"
         >
-          Freight
+          <span className="inline-block relative">
+            Freight{" "}
+            <img
+              src={curve}
+              className="absolute top-full py-2 left-0 w-full xl:-mt-2"
+              width={624}
+              height={28}
+              alt="Curve"
+            />
+          </span>
         </a>
         <nav
           className={`${
