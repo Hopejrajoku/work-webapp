@@ -1,17 +1,18 @@
 import { benefits } from "../constants";
 import Heading from "./Heading";
 import Section from "./Section";
-import Arrow from "../assets/svg/Arrow";
+//import Arrow from "../assets/svg/Arrow";
 import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
+import Button from "./Button";
 
 const Benefits = () => {
   return (
     <Section id="about">
       <div className="container relative z-2">
         <Heading
-          className="md:max-w-md lg:max-w-2xl"
-          title="Chat Smarter, Not Harder with Brainwave"
+          className="pt-10 md:max-w-md lg:max-w-full"
+          title="We are Freight, a premier digital agency headquartered in Portharcourt, Nigeria. We specialize in offering exceptional web design and digital marketing services, driven by creativity and dedicated to achieving remarkable outcomes. Our mission is to empower businesses to excel in the digital realm."
         />
 
         <div className="flex flex-wrap gap-10 mb-10">
@@ -33,10 +34,13 @@ const Benefits = () => {
                     height={48}
                     alt={item.title}
                   />
-                  <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
-                    Explore more
-                  </p>
-                  <Arrow />
+                  <Button
+                    className="flex ml-auto"
+                    href="https://wa.me/08059302294"
+                    white
+                  >
+                    explore
+                  </Button>
                 </div>
               </div>
 
