@@ -34,11 +34,7 @@ const Benefits = () => {
                     height={48}
                     alt={item.title}
                   />
-                  <Button
-                    className="flex ml-auto"
-                    href="https://wa.me/08059302294"
-                    white
-                  >
+                  <Button href="https://wa.me/08059302294" white>
                     explore
                   </Button>
                 </div>
